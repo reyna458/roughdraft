@@ -1,0 +1,266 @@
+[
+  {
+    "GalleryNum": "1",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "Destroyed building in Altadena, metal wreckage with mountains in the back."
+  },
+  {
+    "GalleryNum": "2",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "Destroyed building in Altadena, metal wreckage and a burnt tree in the back"
+  },
+  {
+    "GalleryNum": "3",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "Destroyed building, a big metalic fan sits in a pile of destroyed wood and metal"
+  },
+  {
+    "GalleryNum": "4",
+    "Orientation": "Landscape",
+    "Caption": "Altadena yard sign",
+    "Alt": "Yard sign that reads ALTADENA: NOT FOR SALE"
+  },
+  {
+    "GalleryNum": "5",
+    "Orientation": "Landscape",
+    "Caption": "Education Spectrum (exterior)",
+    "Alt": "Building with white sign an blue letters that read Education Spectrum"
+  },
+  {
+    "GalleryNum": "6",
+    "Orientation": "Landscape",
+    "Caption": "Greetings from Altadena",
+    "Alt": "Postcard style mural on a wall that reads Greetings from Altadena"
+  },
+  {
+    "GalleryNum": "7",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "A destroyed metal structure hangs over rubble"
+  },
+  {
+    "GalleryNum": "8",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "Wires, gravel, and broken glass piled up."
+  },
+  {
+    "GalleryNum": "9",
+    "Orientation": "Landscape",
+    "Caption": "Melted playground",
+    "Alt": "A half melted play structure stands surrounded by rubble."
+  },
+  {
+    "GalleryNum": "10",
+    "Orientation": "Landscape",
+    "Caption": "I Heart Altadena",
+    "Alt": "Hand-painted sign that reads \"I Heart Altadena\""
+  },
+  {
+    "GalleryNum": "11",
+    "Orientation": "Landscape",
+    "Caption": "Cleared lot in Altadena",
+    "Alt": "Graduation sign in an otherwise empty lot"
+  },
+  {
+    "GalleryNum": "12",
+    "Orientation": "Landscape",
+    "Caption": "Mirador Apartments",
+    "Alt": "Modern building with a sign that reads \"Mirador\""
+  },
+  {
+    "GalleryNum": "13",
+    "Orientation": "Landscape",
+    "Caption": "Mirador Apartments",
+    "Alt": "Exterior of modern building"
+  },
+  {
+    "GalleryNum": "14",
+    "Orientation": "Landscape",
+    "Caption": "Road sign in Altadena",
+    "Alt": "Road sign that reads \"BE PREPARED TO STOP,\" barely legible due to smoke damage"
+  },
+  {
+    "GalleryNum": "15",
+    "Orientation": "Landscape",
+    "Caption": "Melted car in Altadena",
+    "Alt": "Pile of rubble with visible tires in a parking lot"
+  },
+  {
+    "GalleryNum": "16",
+    "Orientation": "Landscape",
+    "Caption": "West Altadena Business District",
+    "Alt": "Green sign that reads \"West Altadena Business District\""
+  },
+  {
+    "GalleryNum": "17",
+    "Orientation": "Landscape",
+    "Caption": "Lot across from Mirador",
+    "Alt": "Empty lot with fire wreckage, the only thing standing is a billboard with an ad for a lawyer."
+  },
+  {
+    "GalleryNum": "18",
+    "Orientation": "Landscape",
+    "Caption": "Reda Rountree's cat, Dusty",
+    "Alt": "Gray cat on hardwood floor"
+  },
+  {
+    "GalleryNum": "19",
+    "Orientation": "Landscape",
+    "Caption": "Reda Rountree",
+    "Alt": "Woman in wheelchair on porch"
+  },
+  {
+    "GalleryNum": "20",
+    "Orientation": "Landscape",
+    "Caption": "Welcome to the Pacific Palisades",
+    "Alt": "Road sign that reads \"Pacific Palisades\""
+  },
+  {
+    "GalleryNum": "21",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Burned, destroyed facade of building."
+  },
+  {
+    "GalleryNum": "22",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Burned, destroyed facade of building."
+  },
+  {
+    "GalleryNum": "23",
+    "Orientation": "Landscape",
+    "Caption": "Palisades merchandise in a CVS",
+    "Alt": "Flasks themed to the Pacific Palisades"
+  },
+  {
+    "GalleryNum": "24",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Asbestos warning and caution tape on a fence in front of a destroyed building"
+  },
+  {
+    "GalleryNum": "25",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Asbestos warning and caution tape on a fence in front of a destroyed building"
+  },
+  {
+    "GalleryNum": "26",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Asbestos warning and caution tape on a fence in front of a destroyed building"
+  },
+  {
+    "GalleryNum": "27",
+    "Orientation": "Landscape",
+    "Caption": "Destroyed lot in the Pacific Palisades",
+    "Alt": "Sunflower stands in an otherwise destroyed lot"
+  },
+  {
+    "GalleryNum": "28",
+    "Orientation": "Landscape",
+    "Caption": "Art in a destroyed Pacific Palisades home",
+    "Alt": "Graffiti that reads \"Once a home, always a home\""
+  },
+  {
+    "GalleryNum": "29",
+    "Orientation": "Landscape",
+    "Caption": "Art in a destroyed Pacific Palisades home",
+    "Alt": "Graffiti of flowers and rainbows"
+  },
+  {
+    "GalleryNum": "30",
+    "Orientation": "Portrait",
+    "Caption": "Burned tree in the Palisades",
+    "Alt": "Completely burned tree in an empty lot"
+  },
+  {
+    "GalleryNum": "31",
+    "Orientation": "Landscape",
+    "Caption": "Crows in the Palisades",
+    "Alt": "Crows on a wire"
+  },
+  {
+    "GalleryNum": "32",
+    "Orientation": "Portrait",
+    "Caption": "Tattered American flag",
+    "Alt": "Tattered American flag on an empty lot"
+  },
+  {
+    "GalleryNum": "33",
+    "Orientation": "Landscape",
+    "Caption": "Pacific Palisades Don't Quit!",
+    "Alt": "Flag in a tree that reads Pacific Palisades Don't Quit!"
+  },
+  {
+    "GalleryNum": "34",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Destroyed building in the Pacific Palisades"
+  },
+  {
+    "GalleryNum": "35",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in the Pacific Palisades",
+    "Alt": "Destroyed building in the Pacific Palisades"
+  },
+  {
+    "GalleryNum": "36",
+    "Orientation": "Landscape",
+    "Caption": "Destroyed toilets in the Pacific Palisades",
+    "Alt": "Two toilets on the street"
+  },
+  {
+    "GalleryNum": "37",
+    "Orientation": "Landscape",
+    "Caption": "Destroyed home in the Palisades",
+    "Alt": "Fountains, pots, and vases gathered in an otherwise empty lot"
+  },
+  {
+    "GalleryNum": "38",
+    "Orientation": "Landscape",
+    "Caption": "Melted cars in the Palisades",
+    "Alt": "Two completely bronzed vehicles in a driveway"
+  },
+  {
+    "GalleryNum": "39",
+    "Orientation": "Landscape",
+    "Caption": "Melted car in the Palisades",
+    "Alt": "Weeds growing into a bronzed vehicle in a driveway"
+  },
+  {
+    "GalleryNum": "40",
+    "Orientation": "Landscape",
+    "Caption": "Construction in Altadena",
+    "Alt": "Bench in front of a construction site"
+  },
+  {
+    "GalleryNum": "41",
+    "Orientation": "Landscape",
+    "Caption": "We Love You Altadena",
+    "Alt": "Yard sign with a candy heart that reads \"We Love You Altadena\""
+  },
+  {
+    "GalleryNum": "42",
+    "Orientation": "Landscape",
+    "Caption": "Destroyed structure in Altadena",
+    "Alt": "Destroyed structure in Altadena"
+  },
+  {
+    "GalleryNum": "43",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "A window standing in a destroyed lot"
+  },
+  {
+    "GalleryNum": "44",
+    "Orientation": "Landscape",
+    "Caption": "Wreckage in Altadena",
+    "Alt": "Destroyed structure in Altadena"
+  }
+]

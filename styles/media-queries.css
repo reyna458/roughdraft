@@ -1,0 +1,82 @@
+@media screen and (max-width: 530px) {
+
+   body {
+  margin: 0;
+}
+
+main, section, footer {
+  margin: 0 5%;
+}
+
+   
+
+    .menubar {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+
+    .menu {
+        margin-left: 5%;
+        max-width: 90%;
+        margin-right: 5%;
+        justify-self: center;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 200%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .page-name {
+        display: none;
+    }
+
+    .plus-sign, .x-sign {
+        display: block;
+        align-self: end;
+        margin-bottom: 10%;
+        justify-self: right;
+    }
+
+    .menubar {
+        position: fixed;
+        max-width: 80%;
+        justify-self: right;
+    }
+
+    .menu-button {
+        padding: 5%;
+       
+    }
+
+    .menu-button a {
+         border: white 1px solid;
+         padding: 5%;
+    }
+
+    .data-viz-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer {
+        margin: 0 auto;
+    }
+
+    .data-viz-grid {
+        max-width: 300px;
+    }
+
+    .barchart h6 {
+        font-size: 85% !important;
+    }
+}

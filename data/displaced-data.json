@@ -1,0 +1,24 @@
+[
+  {
+    "Mode": "1",
+    "Category": "Disabled",
+    "Seeing": "1.31%",
+    "Hearing": "1.49%",
+    "Understanding": "1.47%",
+    "Self Care": "1.62%",
+    "Walking": "1.54%",
+    "Remembering and concentrating": "1.48%",
+    "Average": "1.49%"
+  },
+  {
+    "Mode": "1",
+    "Category": "Non-disabled",
+    "Seeing": "2.63%",
+    "Hearing": "2.68%",
+    "Understanding": "4.71%",
+    "Self Care": "3.03%",
+    "Walking": "2.33%",
+    "Remembering and concentrating": "2.26%",
+    "Average": "2.94%"
+  }
+]
