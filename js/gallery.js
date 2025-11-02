@@ -7,7 +7,7 @@ $(document).ready(function () {
             galleryHTML += `
                 <div class='gallery-photo' id='${gallery[x].GalleryNum}'>
                     <img src='./assets/x-sign.png' alt='x button' class='galleryx'>
-                    <img loading='lazy' src='../assets/gallery/gallery${gallery[x].GalleryNum}_compressed.webp' alt='${gallery[x].Alt}' class='galleryIMG'>
+                    <img loading='lazy' src='./assets/gallery/gallery${gallery[x].GalleryNum}_compressed.webp' alt='${gallery[x].Alt}' class='galleryIMG'>
                     <h2>${gallery[x].Caption}</h2>
                 </div>
             `;
@@ -34,4 +34,5 @@ $(document).ready(function () {
         $(this).closest('.gallery-photo').removeClass('gallery-active');
     });
 });
+
 
