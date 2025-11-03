@@ -1,56 +1,57 @@
 $(document).ready(function () {
+  const steps = $(".step");
+  let isAutoScrolling = false;
+  let activeIndex = -1;
+  let scrollTimeout;
 
+  const observer = new IntersectionObserver(
+    (entries) => {
+      if (isAutoScrolling) return;
 
-    $(window).on("scroll", function handler() {
-        let scrollScore = $(window).scrollTop();
-       
+      entries.forEach((entry) => {
+        const index = steps.index(entry.target);
 
-        if (scrollScore >= 100) {
-             console.log(scrollScore)
+        if (entry.isIntersecting && entry.intersectionRatio > 0.5 && index !== activeIndex) {
+          clearTimeout(scrollTimeout);
 
-            $('html, body').animate({
-                scrollTop: $("#bighead").offset().top - 50
-            }, 800);
+          scrollTimeout = setTimeout(() => {
+            activeIndex = index;
 
-            $('.intro-graf p').css("opacity", "1")
+            steps.removeClass("active past");
+            entry.target.classList.add("active");
+            steps.slice(0, index).addClass("past");
 
-            $(window).off("scroll", handler);
+            // Optional data-viz trigger
+            if ($(entry.target).hasClass("data-viz-box")) {
+              $(".bluebox, .graybox").css("opacity", "1");
+            }
+
+            // --- FIXED SCROLL TARGET ---
+            // This uses getBoundingClientRect() to measure relative to viewport
+            const rect = entry.target.getBoundingClientRect();
+            const scrollOffset = window.scrollY + rect.top - 0; // 60px top offset
+            const maxScroll = $(document).height() - window.innerHeight;
+            const targetScroll = Math.min(scrollOffset, maxScroll);
+
+            isAutoScrolling = true;
+            $("html, body")
+              .stop()
+              .animate(
+                { scrollTop: targetScroll },
+                250,
+                "swing",
+                () => (isAutoScrolling = false)
+              );
+          }, 100);
         }
-    });
+      });
+    },
+    {
+      threshold: [0.3, 0.6, 0.9],
+    }
+  );
 
-    $(window).on("scroll", function handler() {
-        let scrollScore = $(window).scrollTop();
-       
-
-        if (scrollScore >= 1000) {
-             console.log(scrollScore)
-
-            $('html, body').animate({
-                scrollTop: $(".data-viz-box").offset().top - 200
-            }, 800);
-
-            $('.bluebox').css("opacity", "1")
-            $('.graybox').css("opacity", "1")
-
-            $(window).off("scroll", handler);
-        }
-    });
-
-     $(window).on("scroll", function handler() {
-        let scrollScore = $(window).scrollTop();
-       
-
-        if (scrollScore >= 1500) {
-             console.log(scrollScore)
-
-            $('html, body').animate({
-                scrollTop: $("#widgets").offset().top - 200
-            }, 800);
-
-            $('.widget').css("opacity", "1")
-            $('.imagewidget').css("opacity", "1")
-
-            $(window).off("scroll", handler);
-        }
-    });
+  steps.each(function () {
+    observer.observe(this);
+  });
 });

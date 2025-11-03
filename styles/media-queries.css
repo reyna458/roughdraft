@@ -79,4 +79,8 @@ main, section, footer {
     .barchart h6 {
         font-size: 85% !important;
     }
+
+    .imagewidget h2 {
+        font-size: 150%;
+    }
 }
